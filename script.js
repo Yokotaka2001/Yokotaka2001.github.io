@@ -7,5 +7,5 @@ function setLanguage(lang){
  try{localStorage.setItem('portfolio-language',lang)}catch(_){}
 }
 button.addEventListener('click',()=>setLanguage(document.documentElement.lang==='en'?'ja':'en'));
-try{if(localStorage.getItem('portfolio-language')==='ja')setLanguage('ja')}catch(_){}
+try{if(localStorage.getItem('portfolio-language')==='en')setLanguage('en')}catch(_){}
 document.getElementById('year').textContent=new Date().getFullYear();
