@@ -28,8 +28,15 @@ const publications = [
     title: 'Anomalous enhancement of Néel order in the S=1/2 square lattice Heisenberg model under fictitious magnetic field',
     links: [
       { label: 'PRB 111, 064415 (2025)', url: 'https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.064415' },
-      { label: 'arXiv:2412.01435', url: 'https://arxiv.org/abs/2412.01435' },
+      { label: 'arXiv:2412.0143', url: 'https://arxiv.org/abs/2412.01435' },
     ],
+  },
+  {
+    kind: 'preprint',
+    year: 2026,
+    authors: 'Takayuki Yokoyama, Yasuhiro Tada',
+    title: 'Lattice-geometry dependence of Type-I and Type-II magnetic flux responses in strongly correlated bosons',
+    links: [{ label: 'arXiv.2611.27749', url: 'https://arxiv.org/abs/2611.27749' }],
   },
   {
     kind: 'preprint',
